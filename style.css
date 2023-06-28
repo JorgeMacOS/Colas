@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #original, #colas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #colas {
+    flex-direction: row;
+  }
+  
+  #colas > div {
+    margin: 0 10px;
+  }
+  
+  h2 {
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #cola-original li {
+    background-color: #f6eaa7;
+  }
+  
+  #cola1-list li:nth-child(even) {
+    background-color: #b8ffbe;
+  }
+  
+  #cola2-list li:nth-child(odd) {
+    background-color: #f6adf6;
+  }
